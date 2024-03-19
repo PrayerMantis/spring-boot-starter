@@ -24,11 +24,8 @@ public class Main {
     }
 
     record Person(String name, int age, double savings){}
-    record GreetResponse(
-            String greet,
-            List<String> favProgrammingLanguages,
-            Person person
-    ){}
+
+    record GreetResponse(String greet, List<String> favProgrammingLanguages, Person person){}
 
     /* class GreetResponse {
         private final String greet;
